@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+
+    <color name="green_tra">#62d66a</color>
+    <color name="green" type="color">#FF99CC00</color>
+    <color name="darkblue" type="color">#FF0099CC</color>
+    <color name="toolbar_top">#3EA99F</color>
+    <color name="toolbar">#B5EAAA</color>
+    <color name="orange" type="color">#FFFFBB33</color>
+    <color name="dark_sea">#B5EAAA</color>
+    <color name="white">#ffffff</color>
+    <color name="blackText">#000</color>
+
+</resources>

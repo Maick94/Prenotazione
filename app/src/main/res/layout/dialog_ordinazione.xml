@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_sea"
+    android:padding="5dp">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:elevation="6dp"
+        android:background="@color/toolbar_top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="Ordinazione Piatti"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@mipmap/menu" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <EditText
+        android:id="@+id/edtextra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Aggiunta extra" />
+
+    <TextView
+        android:id="@+id/quantita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleziona quantita" />
+
+    <EditText
+        android:id="@+id/edtquantita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/conferma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:text="CONFERMA"
+        />
+</LinearLayout>

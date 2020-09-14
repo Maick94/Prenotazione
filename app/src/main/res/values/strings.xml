@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lavoro</string>
+    <string name="title_activity_main">Ristorante</string>
+    <string name="title_activity_login">Ristorante</string>
+
+
+    <string-array name="tipologia_arrays">
+        <item>Primi Piatti</item>
+        <item>Secondi Piatti</item>
+        <item>Bevande</item>
+    </string-array>
+
+
+    <string name="title_activity_dialog_number">DialogNumberActivity</string>
+    <string name="title_activity_prova">prova</string>
+    <string name="title_activity_conferma_prenotazione">ConfermaPrenotazione</string>
+</resources>
